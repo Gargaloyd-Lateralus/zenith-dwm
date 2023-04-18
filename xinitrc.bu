@@ -1,0 +1,8 @@
+xrandr -s 1920x1080 --rate 165 &
+feh --bg-fill ~/zenith-dwm/wallpapers/space.png &
+picom --daemon --experimental-backend &
+sxhkd &
+dwmblocks &
+exec dbus-launch --sh-syntax /usr/local/bin/dwm
+
+
